@@ -34,26 +34,21 @@
 
 ![screenshot](https://raw.githubusercontent.com/igeekshare/GeekshareFreeNode/main/assets/GeekshareFreeNode.jpeg)
 
-## 如何使用
+## 订阅链接
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Clash客户端
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+https://raw.githubusercontent.com/igeekshare/GeekshareFreeNode/main/clash/Geekshare.yaml
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+V2ray / Shadowrocket
+```bash
+https://raw.githubusercontent.com/igeekshare/GeekshareFreeNode/main/v2ray/Geekshare.txt
+```
+
+> **注意**
+> 需在代理环境下使用
 
 
 ## <a href="https://t.me/+JPtPNFREbW0yNzA1">Telegram频道@极客分享</a>
