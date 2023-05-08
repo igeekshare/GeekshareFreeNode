@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-06 11:21:19
+# 创建时间：2023-05-08 20:10:25
 # 使用模版：V2RaySE 默认模版
-# 节点数量：17
+# 节点数量：18
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,158 +21,165 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"Telegram@极客分享_1","type":"vmess","server":"3.wgong1.top","port":11203,"cipher":"auto","uuid":"6202e1d7-acf1-3beb-ae7a-3480d7db5610","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_2","type":"vmess","server":"wj-jp-01.wujie.bio","port":9039,"cipher":"auto","uuid":"2f1831cc-4c25-4adc-b340-e3e5de09a7d3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Telegram@极客分享_3","type":"vmess","server":"t.cccao.cyou","port":16627,"cipher":"auto","uuid":"aa439eb7-5acb-436c-a904-b5111a719d3a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Telegram@极客分享_4","type":"vmess","server":"cf.noaries.de","port":8880,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo-de.iiio.wiki"}}}
-  - {"name":"Telegram@极客分享_5","type":"vmess","server":"cf.noaries.de","port":80,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"dedipath.iiio.wiki"}}}
-  - {"name":"Telegram@极客分享_6","type":"vmess","server":"cf.noaries.de","port":2052,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo-de.iiio.wiki"}}}
-  - {"name":"Telegram@极客分享_7","type":"vmess","server":"142.4.106.248","port":52902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_8","type":"vmess","server":"142.0.132.41","port":50015,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_9","type":"vmess","server":"192.74.228.179","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_10","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp1.yxjnode.com"}}}
-  - {"name":"Telegram@极客分享_11","type":"vmess","server":"8.v2-ray.cyou","port":23608,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_12","type":"vmess","server":"87.106.198.110","port":10000,"cipher":"auto","uuid":"14466274-e649-11ed-bc8a-2b6bf8142be5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vpnjantit"}}
-  - {"name":"Telegram@极客分享_13","type":"vmess","server":"oci.donpau.com","port":443,"cipher":"auto","uuid":"3C02DC15-56AE-7889-8936-9A2EA8FF8666","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cone","headers":{"host":"oci.donpau.com"}}}
-  - {"name":"Telegram@极客分享_14","type":"ss","server":"hk07.fasttudou.top","port":13034,"password":"b6440884-b770-4c37-b8c8-fc2d34395181","cipher":"aes-128-gcm"}
-  - {"name":"Telegram@极客分享_15","type":"vmess","server":"172.67.128.250","port":443,"cipher":"auto","uuid":"7a37ba6e-3d7c-4bfd-dd08-8e5d5f5a4240","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v2.lrios.tk"}}}
-  - {"name":"Telegram@极客分享_16","type":"vmess","server":"jeremysu.xyz","port":443,"cipher":"auto","uuid":"77769bec-d565-30e6-bef5-4e54cb6a80fd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"jeremysu.xyz"}}}
-  - {"name":"Telegram@极客分享_17","type":"vmess","server":"kr-direct.node002.xyz","port":554,"cipher":"auto","uuid":"01747922-33ae-3aa2-8d48-ca02506d4d1e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|美国_4","type":"vmess","server":"172.67.140.104","port":2086,"cipher":"auto","uuid":"7feb22ed-8283-3313-a09f-c5dc1402333b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ag01-cdn.myn1des.com"}}}
+  - {"name":"35@wxgqlfx","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"🇫🇷 法国双栈 CF代理 1x","type":"vmess","server":"visa.com","port":8443,"cipher":"auto","uuid":"edf3f72a-2932-3eb4-8686-0480760a7384","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/microsoft?ed=2048","headers":{"host":"fr.riemunode.ga"}}}
+  - {"name":"TG:@hkaa0|日本","type":"vmess","server":"jp2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online","port":80,"cipher":"auto","uuid":"2da0d552-b9f4-4802-b4d8-d20be2d1a590","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aws-china-media/a9__D53WsUs.mp4","headers":{"host":"jp2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online"}}}
+  - {"name":"TG:@hkaa0|美国_2","type":"vmess","server":"de2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online","port":80,"cipher":"auto","uuid":"2da0d552-b9f4-4802-b4d8-d20be2d1a590","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aws-china-media/QAcTKp3Ic-M.mp4","headers":{"host":"de-media.ispeed.online"}}}
+  - {"name":"34@wxgqlfx","type":"vmess","server":"8.219.216.27","port":2095,"cipher":"auto","uuid":"19350d64-6868-4a64-e501-9c0df903d788","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h3.mamadcucu.com"}}}
+  - {"name":">🇩🇪 DE|Ms|0508|TG@FProxies|","type":"vmess","server":"de-cdn.ikuan.dev","port":443,"cipher":"auto","uuid":"5d845fde-577e-4228-8cd4-dd7e0b01e8c7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/microsoft?ed=1024","headers":{"host":"de02-v6.freenode.pro"}}}
+  - {"name":">🇬🇧 GB|Hs|0508|TG@FProxies|","type":"vmess","server":"194.146.49.166","port":10000,"cipher":"auto","uuid":"2a178018-ebbe-11ed-af85-00163e7a9696","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vpnjantit"}}
+  - {"name":">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r","type":"trojan","server":"gg.xn--gmqa02ag57d.com","port":50355,"udp":true,"password":"79aced73-bf99-335d-9b76-3fdbec1c6310","sni":"z264.hongkongnode.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国05 CF代理 1x","type":"vmess","server":"visa.com","port":2096,"cipher":"auto","uuid":"edf3f72a-2932-3eb4-8686-0480760a7384","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/microsoft?ed=2048","headers":{"host":"knfusa.redreimu.xyz"}}}
+  - {"name":">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r","type":"ss","server":"g01.jp03-ae5.entry.hsrtd.club","port":488,"password":"7aec5ef1-0ba2-37a8-b511-36c612dfd50c","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 荷兰双栈 CF代理 1x","type":"vmess","server":"visa.com","port":8443,"cipher":"auto","uuid":"edf3f72a-2932-3eb4-8686-0480760a7384","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/microsoft?ed=2048","headers":{"host":"nl.riemunode.ga"}}}
+  - {"name":"🇺🇸_DediPath-KVM","type":"vmess","server":"cf.noaries.de","port":2082,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"dedipath2.iiio.wiki"}}}
+  - {"name":">🇺🇸 US|Ms|0508|TG@FProxies|","type":"vmess","server":"ra.679888.xyz","port":443,"cipher":"auto","uuid":"98c731fc-3ced-4537-bb55-ec27f531a4b6","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cef3646850fee/","headers":{"host":"ra.679888.xyz"}}}
+  - {"name":">🇺🇸 US|Hs|0508|TG@FProxies|","type":"vmess","server":"cf2.biger.top","port":2087,"cipher":"auto","uuid":"988c8e90-6e29-45cc-8f93-4e6142eca1eb","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.biger.top"}}}
+  - {"name":"🇺🇸_[WireGuard]CONTABO-US2","type":"vmess","server":"beta.noaries.de","port":2052,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo-us2.iiio.wiki"}}}
+  - {"name":"🇩🇪_[WireGuard]CONTABO","type":"vmess","server":"beta.noaries.de","port":8880,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo-de.iiio.wiki"}}}
+  - {"name":"🇷🇴 罗马尼亚01 CF加速 1x","type":"vmess","server":"visa.com","port":8443,"cipher":"auto","uuid":"edf3f72a-2932-3eb4-8686-0480760a7384","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/microsoft?ed=2048","headers":{"host":"ro.redreimu.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -195,23 +202,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Telegram@极客分享_1
-      - Telegram@极客分享_2
-      - Telegram@极客分享_3
-      - Telegram@极客分享_4
-      - Telegram@极客分享_5
-      - Telegram@极客分享_6
-      - Telegram@极客分享_7
-      - Telegram@极客分享_8
-      - Telegram@极客分享_9
-      - Telegram@极客分享_10
-      - Telegram@极客分享_11
-      - Telegram@极客分享_12
-      - Telegram@极客分享_13
-      - Telegram@极客分享_14
-      - Telegram@极客分享_15
-      - Telegram@极客分享_16
-      - Telegram@极客分享_17
+      - TG:@hkaa0|美国_4
+      - 35@wxgqlfx
+      - 🇫🇷 法国双栈 CF代理 1x
+      - TG:@hkaa0|日本
+      - TG:@hkaa0|美国_2
+      - 34@wxgqlfx
+      - '>🇩🇪 DE|Ms|0508|TG@FProxies|'
+      - '>🇬🇧 GB|Hs|0508|TG@FProxies|'
+      - ">🇬🇧 GB|Ms|0508|TG@FProxies|\r\r"
+      - 🇺🇸 美国05 CF代理 1x
+      - ">🇯🇵 JP|Ms|0508|TG@FProxies|\r\r"
+      - 🇳🇱 荷兰双栈 CF代理 1x
+      - 🇺🇸_DediPath-KVM
+      - '>🇺🇸 US|Ms|0508|TG@FProxies|'
+      - '>🇺🇸 US|Hs|0508|TG@FProxies|'
+      - 🇺🇸_[WireGuard]CONTABO-US2
+      - 🇩🇪_[WireGuard]CONTABO
+      - 🇷🇴 罗马尼亚01 CF加速 1x
 
 rules:
 # 本地/局域网地址
