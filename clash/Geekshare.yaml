@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-12 16:16:27
+# 创建时间：2023-06-14 16:10:42
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：18
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,18 +21,24 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"Telegram@极客分享_1","type":"vmess","server":"ger.hamyonline.shop","port":443,"cipher":"auto","uuid":"6eb387d0-a404-4f56-a8c0-5cb3e0c0d451","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/17528","headers":{"host":"ger.hamyonline.shop"}}}
-  - {"name":"Telegram@极客分享_2","type":"vmess","server":"hkgkgb.76898102.xyz","port":2082,"cipher":"auto","uuid":"285bfc27-2341-3c7a-be0e-360cedd5e209","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/funsdfrh","headers":{"host":"hkg.76898102.xyz"}}}
-  - {"name":"Telegram@极客分享_3","type":"vmess","server":"51.195.125.16","port":54902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_4","type":"vmess","server":"cold-dawn-9246.fly.dev","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"cold-dawn-9246.fly.dev"}}}
-  - {"name":"Telegram@极客分享_5","type":"vmess","server":"dynamic-sg1b.obfs.xyz","port":443,"cipher":"auto","uuid":"30bf32bc-19dc-45ad-b330-4f5149e56876","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg1b.obfs.xyz"}}}
-  - {"name":"Telegram@极客分享_6","type":"vmess","server":"192.74.229.198","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_7","type":"vmess","server":"vm.in.goserver.pw","port":80,"cipher":"auto","uuid":"97f88925-deea-4074-a442-40f44e3c8389","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray-vmess/ntls","headers":{"host":"vm.in.goserver.pw"}}}
-  - {"name":"Telegram@极客分享_8","type":"ss","server":"node00.gde52px1vwf5q6301fxn.catapi.management","port":10003,"password":"b64d603b-1d35-45e3-aa80-9ad688fa5302","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Telegram@极客分享_9","type":"vmess","server":"104.16.10.161","port":2095,"cipher":"auto","uuid":"1d1362f7-073c-4e5c-b470-02b8222c226c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ylks","headers":{"host":"x1.ylks01.eu.org"}}}
-  - {"name":"Telegram@极客分享_10","type":"vmess","server":"yd1.01dj.sbs","port":443,"cipher":"auto","uuid":"9be33b2c-b878-4170-a861-df304340eb7a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sometimesnaive","headers":{"host":"yd1.01dj.sbs"}}}
-  - {"name":"Telegram@极客分享_11","type":"vmess","server":"107.167.12.29","port":41707,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Telegram@极客分享_12","type":"trojan","server":"ovous.ovogreat.com","port":443,"udp":true,"password":"58a00452-a4f6-406b-b3bf-5a8e94ef6dfb","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram@极客分享_1","type":"ss","server":"fsyy.fosi.hk","port":12093,"password":"23d4432c-b797-4dd2-8f16-507568ee0d7f","cipher":"aes-128-gcm"}
+  - {"name":"Telegram@极客分享_2","type":"vmess","server":"seoul.csi7lahsc.com","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video","headers":{"host":"seoul.csi7lahsc.com"}}}
+  - {"name":"Telegram@极客分享_3","type":"vmess","server":"seoul.csi7lahsc.com","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video","headers":{"host":"seoul.csi7lahsc.com"}}}
+  - {"name":"Telegram@极客分享_4","type":"vmess","server":"rusabdfs.76898102.xyz","port":2052,"cipher":"auto","uuid":"956626a1-d9f5-3ea8-b3c3-607928e3d2ce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aubcroig","headers":{"host":"rusabdfs.76898102.xyz"}}}
+  - {"name":"Telegram@极客分享_5","type":"vmess","server":"a3.zwtg888.com","port":383,"cipher":"auto","uuid":"6b2ce83f-623e-3d14-b246-c2fe15461add","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"a3.zwtg888.com"}}}
+  - {"name":"Telegram@极客分享_6","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"bb37eb79-838e-4bb9-9d4b-00a3488a2eaf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jsjc/jp1","headers":{"host":"jp1.jsjc.sbs"}}}
+  - {"name":"Telegram@极客分享_7","type":"vmess","server":"147.139.28.249","port":10000,"cipher":"auto","uuid":"de3d87b0-06b0-11ee-9df7-00163e0114dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vpnjantit"}}
+  - {"name":"Telegram@极客分享_8","type":"trojan","server":"hnm.xiaohouzi.club","port":23330,"udp":true,"password":"c32c56fb-64d9-33c4-b42a-af81b7a33fe7","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram@极客分享_9","type":"vmess","server":"108.186.116.182","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram@极客分享_10","type":"vmess","server":"108.186.116.178","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram@极客分享_11","type":"vmess","server":"meetzoom.disnet.gq","port":443,"cipher":"auto","uuid":"a869c557-5c7d-426f-9039-0279c16352bc","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"meetzoom.disnet.gq"}}}
+  - {"name":"Telegram@极客分享_12","type":"vmess","server":"cf.durov.ir","port":2086,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"douk.iiio.wiki"}}}
+  - {"name":"Telegram@极客分享_13","type":"vmess","server":"frankfurt.csi7lahsc.com","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video","headers":{"host":"frankfurt.csi7lahsc.com"}}}
+  - {"name":"Telegram@极客分享_14","type":"vmess","server":"cf.durov.ir","port":2052,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"doca.iiio.wiki"}}}
+  - {"name":"Telegram@极客分享_15","type":"vmess","server":"dynamic-sg1b.obfs.xyz","port":443,"cipher":"auto","uuid":"30bf32bc-19dc-45ad-b330-4f5149e56876","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg1b.obfs.xyz"}}}
+  - {"name":"Telegram@极客分享_16","type":"vmess","server":"sanjose.csi7lahsc.com","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video","headers":{"host":"sanjose.csi7lahsc.com"}}}
+  - {"name":"Telegram@极客分享_17","type":"vmess","server":"156.249.18.158","port":43998,"cipher":"auto","uuid":"63b4b829-7f01-4e26-b037-f04b1f098765","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram@极客分享_18","type":"vmess","server":"156.225.67.76","port":42243,"cipher":"auto","uuid":"3e016c4d-986e-42df-838c-6046f3d89ecf","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -51,6 +57,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -69,6 +81,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -87,6 +105,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
   - name: 📲 电报信息
     type: select
     proxies:
@@ -104,6 +128,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -121,6 +151,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -138,6 +174,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,6 +214,12 @@ proxy-groups:
       - Telegram@极客分享_10
       - Telegram@极客分享_11
       - Telegram@极客分享_12
+      - Telegram@极客分享_13
+      - Telegram@极客分享_14
+      - Telegram@极客分享_15
+      - Telegram@极客分享_16
+      - Telegram@极客分享_17
+      - Telegram@极客分享_18
 
 rules:
 # 本地/局域网地址
