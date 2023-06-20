@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-18 14:58:53
+# 创建时间：2023-06-20 15:23:46
 # 使用模版：V2RaySE 默认模版
 # 节点数量：18
 ####################################
@@ -21,165 +21,165 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"TG@极客分享_1","type":"vmess","server":"ger.digires.shop","port":443,"cipher":"auto","uuid":"f988dd2c-0d1a-49d0-cabc-a1288d72d183","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/14161","headers":{"host":"ger.digires.shop"}}}
-  - {"name":"TG@极客分享_2","type":"vmess","server":"142.4.112.130","port":51444,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@极客分享_3","type":"vmess","server":"137.175.9.202","port":57902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@极客分享_4","type":"vmess","server":"cf.durov.ir","port":2052,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"scw-nl.iiio.wiki"}}}
-  - {"name":"TG@极客分享_5","type":"trojan","server":"uk1.barbecuepie.com","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@极客分享_6","type":"vmess","server":"42.7.24.11","port":1874,"cipher":"auto","uuid":"9af01808-5095-4f43-97f0-7558eb5ea788","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_7","type":"vmess","server":"trky.digires.shop","port":443,"cipher":"auto","uuid":"bc329892-2028-49ba-b594-aa14c0ee8f92","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/20861","headers":{"host":"trky.digires.shop"}}}
-  - {"name":"TG@极客分享_8","type":"vmess","server":"freesg.7dgoshop.com","port":443,"cipher":"auto","uuid":"0d833fb6-d0e3-4713-8078-985d36d025e0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0d833fb6-d0e3-4713-8078-985d36d025e0","headers":{"host":"freesg.7dgoshop.com"}}}
-  - {"name":"TG@极客分享_9","type":"vmess","server":"38.kccic2pa.xyz","port":50038,"cipher":"auto","uuid":"53a79b4b-3c7a-4e5d-bafa-d80d74b0017b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@极客分享_10","type":"vmess","server":"jpcdn.bh8189.eu.org","port":2082,"cipher":"auto","uuid":"d1e9d027-8eac-4869-90d1-a00cb2169d4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jpa01","headers":{"host":"jpa01.galenet.online"}}}
-  - {"name":"TG@极客分享_11","type":"vmess","server":"beta.durov.ir","port":2052,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.iiio.wiki"}}}
-  - {"name":"TG@极客分享_12","type":"vmess","server":"beta.durov.ir","port":8880,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo-sg.iiio.wiki"}}}
-  - {"name":"TG@极客分享_13","type":"vmess","server":"sg4.zingfast.vn","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/anti13.zingfast.vn","headers":{"host":"dl.kgvn.garenanow.com"}}}
-  - {"name":"TG@极客分享_14","type":"vmess","server":"dynamic-sg2b.obfs.xyz","port":443,"cipher":"auto","uuid":"3f1efe58-f94e-4c8d-8428-8928ad5f075c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg2b.obfs.xyz"}}}
-  - {"name":"TG@极客分享_15","type":"vmess","server":"dynamic-sg2b.obfs.xyz","port":443,"cipher":"auto","uuid":"5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg2b.obfs.xyz"}}}
-  - {"name":"TG@极客分享_16","type":"ss","server":"abc.websitea.xyz","port":20007,"password":"a3e3aab6-8b19-4e40-92a1-a95adf623e8e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG@极客分享_17","type":"vmess","server":"156.249.18.159","port":46698,"cipher":"auto","uuid":"63b4b829-7f01-4e26-b037-f04b1f098765","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@极客分享_18","type":"vmess","server":"hyd.eccoedmond.shop","port":8443,"cipher":"auto","uuid":"720f3c43-d22b-4237-8355-620fc653224e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hyd.eccoedmond.shop"}}}
+  - {"name":"TG@geekshare_1","type":"trojan","server":"cat-1.opensvr.net","port":443,"udp":true,"password":"opentunnel.net-readyltt","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@geekshare_2","type":"vmess","server":"tulip.route76.net","port":443,"cipher":"auto","uuid":"379a7c2e-cdec-4e64-8d2d-cd2c893508bd","alterId":4,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cache","headers":{"host":"tulip.route76.net"}}}
+  - {"name":"TG@geekshare_3","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"TG@geekshare_4","type":"vmess","server":"beta.durov.ir","port":8880,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo-sg.iiio.wiki"}}}
+  - {"name":"TG@geekshare_5","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us3.sanfencdn1.com"}}}
+  - {"name":"TG@geekshare_6","type":"vmess","server":"cf.durov.ir","port":2082,"cipher":"auto","uuid":"c7654980-72fe-492d-8b6f-a4cb55c94c2e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"advins.iiio.wiki"}}}
+  - {"name":"TG@geekshare_7","type":"ss","server":"01.xn--nqv95at51fi1h.com","port":46399,"password":"d895805c-ab4c-4995-a02d-6761f8367277","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@geekshare_8","type":"vmess","server":"104.31.16.45","port":80,"cipher":"auto","uuid":"2fcc2939-7dcf-4741-aa03-825bc40e23fd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/CZfczvtieCZXdOlgWhgDLX","headers":{"host":"de3.irteh.fun"}}}
+  - {"name":"TG@geekshare_9","type":"vmess","server":"sg2.669990.xyz","port":80,"cipher":"auto","uuid":"92a408b4-1863-427f-8a75-537fd33ec516","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/DFZmOHc4HI6cWLADzLF","headers":{"host":"sg2.669990.xyz"}}}
+  - {"name":"TG@geekshare_10","type":"vmess","server":"boostor.top","port":58578,"cipher":"auto","uuid":"2add94f4-e5ba-4d2e-8469-1d2c13bfa884","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"boostor.top"}}}
+  - {"name":"TG@geekshare_11","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us6.sanfencdn1.com"}}}
+  - {"name":"TG@geekshare_12","type":"vmess","server":"gzyd.jcnode.top","port":28001,"cipher":"auto","uuid":"e42fd445-261a-4851-aea0-e8c605160768","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gzyd.jcnode.top"}}}
+  - {"name":"TG@geekshare_13","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us5.sanfencdn1.com"}}}
+  - {"name":"TG@geekshare_14","type":"vmess","server":"sg1.zingfast.vn","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/anti13.zingfast.vn","headers":{"host":"dl.kgvn.garenanow.com"}}}
+  - {"name":"TG@geekshare_15","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfencdn1.com"}}}
+  - {"name":"TG@geekshare_16","type":"vmess","server":"fra1.looooooongnet.lol","port":443,"cipher":"auto","uuid":"4559e95a-7326-4cb5-87dc-af5651025669","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fra1.looooooongnet.lol"}}}
+  - {"name":"TG@geekshare_17","type":"vmess","server":"smt.ircf.space","port":443,"cipher":"auto","uuid":"3bcbd5cd-e791-4770-8bc7-7b1d941c9513","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/S4PSg9xqUClN2kJ4SOPKqC6","headers":{"host":"wfi.sahnama.com"}}}
+  - {"name":"TG@geekshare_18","type":"vmess","server":"104.22.5.240","port":80,"cipher":"auto","uuid":"fc2f8cf0-b37a-42f6-9955-366117861cd1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"sg1vm.cdn-03.live"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,24 +202,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@极客分享_1
-      - TG@极客分享_2
-      - TG@极客分享_3
-      - TG@极客分享_4
-      - TG@极客分享_5
-      - TG@极客分享_6
-      - TG@极客分享_7
-      - TG@极客分享_8
-      - TG@极客分享_9
-      - TG@极客分享_10
-      - TG@极客分享_11
-      - TG@极客分享_12
-      - TG@极客分享_13
-      - TG@极客分享_14
-      - TG@极客分享_15
-      - TG@极客分享_16
-      - TG@极客分享_17
-      - TG@极客分享_18
+      - TG@geekshare_1
+      - TG@geekshare_2
+      - TG@geekshare_3
+      - TG@geekshare_4
+      - TG@geekshare_5
+      - TG@geekshare_6
+      - TG@geekshare_7
+      - TG@geekshare_8
+      - TG@geekshare_9
+      - TG@geekshare_10
+      - TG@geekshare_11
+      - TG@geekshare_12
+      - TG@geekshare_13
+      - TG@geekshare_14
+      - TG@geekshare_15
+      - TG@geekshare_16
+      - TG@geekshare_17
+      - TG@geekshare_18
 
 rules:
 # 本地/局域网地址
