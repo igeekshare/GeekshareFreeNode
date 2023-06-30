@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-28 17:33:46
+# 创建时间：2023-06-30 15:38:03
 # 使用模版：V2RaySE 默认模版
-# 节点数量：19
+# 节点数量：20
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,25 +21,26 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"TG@GEEKSHARE_1","type":"vmess","server":"lon01.freenode.pro","port":443,"cipher":"auto","uuid":"e4fb2745-606d-4a82-8c4f-7e617492d5a7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/update.microsoft.com","headers":{"host":"lon01.freenode.pro"}}}
-  - {"name":"TG@GEEKSHARE_2","type":"vmess","server":"156.249.18.69","port":54802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSHARE_3","type":"vmess","server":"23.234.228.41","port":53098,"cipher":"auto","uuid":"c17854bc-4c61-40c8-8199-dadb1dc0dd13","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSHARE_4","type":"vmess","server":"156.249.18.69","port":54802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSHARE_5","type":"vmess","server":"158.101.155.230","port":80,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cdn","headers":{"host":"dctzj47pbgu88.cloudfront.net"}}}
-  - {"name":"TG@GEEKSHARE_6","type":"vmess","server":"150.230.218.16","port":8080,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_7","type":"vmess","server":"cdn.big234.com","port":8080,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@GEEKSHARE_8","type":"vmess","server":"13.226.123.50","port":80,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d1rmxwxk0k9uj1.cloudfront.net"}}}
-  - {"name":"TG@GEEKSHARE_9","type":"vmess","server":"140.238.20.239","port":65008,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_10","type":"vmess","server":"20.198.192.236","port":8848,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_11","type":"vmess","server":"23.225.9.198","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSHARE_12","type":"vmess","server":"129.146.169.247","port":8080,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_13","type":"vmess","server":"129.153.96.86","port":8080,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_14","type":"vmess","server":"192.9.231.146","port":8080,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_15","type":"vmess","server":"165.1.68.182","port":8080,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_16","type":"vmess","server":"140.238.20.239","port":65008,"cipher":"auto","uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"TG@GEEKSHARE_17","type":"vmess","server":"54.192.150.188","port":443,"cipher":"auto","uuid":"b393a93b-ae0f-4b3a-b049-b1a81a3e490a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/share","headers":{"host":"d2kzpvdyi8xw4u.cloudfront.net"}}}
-  - {"name":"TG@GEEKSHARE_18","type":"vmess","server":"137.175.18.65","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSHARE_19","type":"vmess","server":"54.192.150.188","port":443,"cipher":"auto","uuid":"b393a93b-ae0f-4b3a-b049-b1a81a3e490a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/share","headers":{"host":"d2kzpvdyi8xw4u.cloudfront.net"}}}
+  - {"name":"TG@GEEKSHARE_1","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10705,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_2","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10721,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_3","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10704,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_4","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10702,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_5","type":"ss","server":"speed11.duang2019.com","port":12002,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_6","type":"ss","server":"speed11.duang2019.com","port":12001,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_7","type":"ss","server":"speed11.duang2019.com","port":12004,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_8","type":"ss","server":"speed11.duang2019.com","port":12012,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_9","type":"ss","server":"speed11.duang2019.com","port":12011,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_10","type":"ss","server":"speed11.duang2019.com","port":12041,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_11","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10726,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_12","type":"vmess","server":"free.themars.top","port":32201,"cipher":"auto","uuid":"d01d95f9-8bbe-497d-bf93-bf721f22f685","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"TG@GEEKSHARE_13","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"32068eda-adad-431a-bfd4-2f7d4c73507c","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_14","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10708,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_15","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10717,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_16","type":"trojan","server":"pqawsjp1.gsjc.cfd","port":443,"udp":true,"password":"32068eda-adad-431a-bfd4-2f7d4c73507c","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_17","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10703,"password":"733e169e-5768-4d66-ba8a-95e089003926","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@GEEKSHARE_18","type":"ss","server":"speed11.duang2019.com","port":12032,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_19","type":"ss","server":"speed11.duang2019.com","port":12021,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
+  - {"name":"TG@GEEKSHARE_20","type":"ss","server":"speed11.duang2019.com","port":12025,"password":"bf433d85-99d6-4e46-8147-4d11c04f36b3","cipher":"aes-128-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -65,6 +66,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -90,6 +92,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -115,6 +118,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
   - name: 📲 电报信息
     type: select
     proxies:
@@ -139,6 +143,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -163,6 +168,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -187,6 +193,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,6 +235,7 @@ proxy-groups:
       - TG@GEEKSHARE_17
       - TG@GEEKSHARE_18
       - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
 
 rules:
 # 本地/局域网地址
