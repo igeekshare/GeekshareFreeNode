@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-10 16:26:40
+# 创建时间：2023-07-12 21:15:46
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：29
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,116 +21,242 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"TG@GEEKSAHRE_1","type":"vmess","server":"qzcn2-01.dajuzi.cc","port":15598,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_2","type":"vmess","server":"183.232.170.13","port":21002,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_3","type":"vmess","server":"51.195.35.149","port":49982,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_4","type":"vmess","server":"183.232.170.13","port":40098,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_5","type":"ss","server":"weo-sg-2.laowufly.cf","port":23333,"password":"NodeByTG@Weoworks/It'sExpensive!!!","cipher":"aes-256-gcm"}
-  - {"name":"TG@GEEKSAHRE_6","type":"vmess","server":"cloudflare.piaole.me","port":443,"cipher":"auto","uuid":"e71fef74-5caa-4447-9fc0-27184bd926c1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huawei","headers":{"host":"cloudflare.piaole.me"}}}
-  - {"name":"TG@GEEKSAHRE_7","type":"vmess","server":"156.225.67.144","port":42300,"cipher":"auto","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_8","type":"trojan","server":"tr.mellivmess.com","port":32950,"udp":true,"password":"AJCBkjTy9v","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_9","type":"vmess","server":"jp-direct.node002.xyz","port":554,"cipher":"auto","uuid":"bcec639e-a656-3703-8d13-47a6dca409e0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_10","type":"vmess","server":"45.199.138.121","port":51204,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@GEEKSAHRE_11","type":"vmess","server":"156.225.67.225","port":48123,"cipher":"auto","uuid":"ebec2adf-e940-446f-bed4-d8c91143b54a","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_1","type":"vmess","server":"aws.daxun.cyou","port":38889,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/daxun/us2","headers":{"host":"www.baidu.com"}}}
+  - {"name":"TG@GEEKSHARE_2","type":"vmess","server":"142.4.110.25","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_3","type":"vmess","server":"gz.daxun.cyou","port":38068,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_4","type":"vmess","server":"gz.daxun.cyou","port":26042,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_5","type":"vmess","server":"gz.daxun.cyou","port":38066,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_6","type":"vmess","server":"aws.daxun.cyou","port":38887,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/daxun/us3","headers":{"host":"www.baidu.com"}}}
+  - {"name":"TG@GEEKSHARE_7","type":"vmess","server":"gz.daxun.cyou","port":38007,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_8","type":"vmess","server":"iepl.daxun.cyou","port":38026,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_9","type":"vmess","server":"142.4.112.2","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_10","type":"vmess","server":"108.186.4.1","port":42382,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_11","type":"vmess","server":"aws.daxun.cyou","port":38888,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/daxun/us1","headers":{"host":"www.baidu.com"}}}
+  - {"name":"TG@GEEKSHARE_12","type":"vmess","server":"gz.daxun.cyou","port":38023,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_13","type":"vmess","server":"gz.daxun.cyou","port":38025,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_14","type":"trojan","server":"e.steamdownload.top","port":36631,"udp":true,"password":"a0d33df2-c404-4622-a0a0-4c37e6e20a88","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_15","type":"vmess","server":"gz.daxun.cyou","port":26034,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_16","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_17","type":"vmess","server":"gz.daxun.cyou","port":38001,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_18","type":"vmess","server":"gz.daxun.cyou","port":38015,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_19","type":"vmess","server":"gz.daxun.cyou","port":26037,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_20","type":"vmess","server":"gz.daxun.cyou","port":38003,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_21","type":"vmess","server":"gz.daxun.cyou","port":38019,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_22","type":"vmess","server":"11.v2-ray.cyou","port":23611,"cipher":"auto","uuid":"52973fd8-8094-3f2f-8f8b-7326f3ae3d0d","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"11.v2-ray.cyou"}}}
+  - {"name":"TG@GEEKSHARE_23","type":"vmess","server":"rusabdfs.76898102.xyz","port":2052,"cipher":"auto","uuid":"956626a1-d9f5-3ea8-b3c3-607928e3d2ce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aubcroig","headers":{"host":"rusabdfs.76898102.xyz"}}}
+  - {"name":"TG@GEEKSHARE_24","type":"trojan","server":"hnyd.aliang.icu","port":11317,"udp":true,"password":"3586c4ab-44f4-46ee-9dc7-a654959ac074","sni":"awsjp.cfcloud.cyou","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_25","type":"trojan","server":"download2hkt.windowsupdatea.com","port":443,"udp":true,"password":"6adaf4e6-15ee-46da-b606-3040489aaff2","sni":"dc3-download.windowsupdate1.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_26","type":"trojan","server":"13.214.167.185","port":443,"udp":true,"password":"04cd6d53-be65-4739-a5b1-26a6f947d5dd","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_27","type":"vmess","server":"156.245.8.247","port":43390,"cipher":"auto","uuid":"964bf499-9ec0-4378-92b6-87d8d861b2d0","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_28","type":"vmess","server":"156.245.8.158","port":48123,"cipher":"auto","uuid":"11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@GEEKSHARE_29","type":"vmess","server":"gz.daxun.cyou","port":38017,"cipher":"auto","uuid":"6adaf4e6-15ee-46da-b606-3040489aaff2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,17 +279,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@GEEKSAHRE_1
-      - TG@GEEKSAHRE_2
-      - TG@GEEKSAHRE_3
-      - TG@GEEKSAHRE_4
-      - TG@GEEKSAHRE_5
-      - TG@GEEKSAHRE_6
-      - TG@GEEKSAHRE_7
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_9
-      - TG@GEEKSAHRE_10
-      - TG@GEEKSAHRE_11
+      - TG@GEEKSHARE_1
+      - TG@GEEKSHARE_2
+      - TG@GEEKSHARE_3
+      - TG@GEEKSHARE_4
+      - TG@GEEKSHARE_5
+      - TG@GEEKSHARE_6
+      - TG@GEEKSHARE_7
+      - TG@GEEKSHARE_8
+      - TG@GEEKSHARE_9
+      - TG@GEEKSHARE_10
+      - TG@GEEKSHARE_11
+      - TG@GEEKSHARE_12
+      - TG@GEEKSHARE_13
+      - TG@GEEKSHARE_14
+      - TG@GEEKSHARE_15
+      - TG@GEEKSHARE_16
+      - TG@GEEKSHARE_17
+      - TG@GEEKSHARE_18
+      - TG@GEEKSHARE_19
+      - TG@GEEKSHARE_20
+      - TG@GEEKSHARE_21
+      - TG@GEEKSHARE_22
+      - TG@GEEKSHARE_23
+      - TG@GEEKSHARE_24
+      - TG@GEEKSHARE_25
+      - TG@GEEKSHARE_26
+      - TG@GEEKSHARE_27
+      - TG@GEEKSHARE_28
+      - TG@GEEKSHARE_29
 
 rules:
 # 本地/局域网地址
