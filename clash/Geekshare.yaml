@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-11 15:45:13
+# 创建时间：2023-08-13 21:55:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：21
+# 节点数量：13
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,42 +22,25 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"赞助位置联系我，无需收费","type":"ss","server":"www.dongtaiwang4.com","port":12233,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_1","type":"vmess","server":"iepljp.hiccupx.xyz","port":19549,"cipher":"auto","uuid":"be01d967-f93a-4370-8e76-8f5830bbb846","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"night-furyx.com_夜煞云赞助_2","type":"ss","server":"v2uk.hiccupx.xyz","port":37414,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_3","type":"ss","server":"zjcm.hiccupx.xyz","port":24191,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_4","type":"ss","server":"v2jp2.hiccupx.xyz","port":21485,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_5","type":"ss","server":"v2tw1.hiccupx.xyz","port":32067,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_6","type":"ss","server":"v2sg1.hiccupx.xyz","port":28415,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_7","type":"ss","server":"v2sg3.hiccupx.xyz","port":25227,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"night-furyx.com_夜煞云赞助_8","type":"ss","server":"v2vn.hiccupx.xyz","port":23741,"password":"be01d967-f93a-4370-8e76-8f5830bbb846","cipher":"aes-256-gcm"}
-  - {"name":"TG@极客分享_1","type":"vless","server":"c1.wang66.homes","port":443,"uuid":"c2ee59b9-fb4d-4b75-a623-55455824fdaa","tls":true,"servername":"c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_2","type":"vmess","server":"sblarm.kaolll.tech","port":80,"cipher":"auto","uuid":"1da9d412-beb1-48cf-ac3e-ebc16403447b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sblarm.kaolll.tech"}}}
-  - {"name":"TG@极客分享_3","type":"vmess","server":"wxll.e5outllok.me","port":80,"cipher":"auto","uuid":"f78be3ae-c715-4856-a797-720a6703ba65","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_4","type":"ss","server":"89.163.157.4","port":1443,"password":"NGJjN","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG@极客分享_5","type":"vmess","server":"wxll.e5outllok.me","port":80,"cipher":"auto","uuid":"de0fbe01-ffbd-40d0-a28c-0e5aed6b554e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_6","type":"vmess","server":"sblarm.kaolll.tech","port":80,"cipher":"auto","uuid":"de0fbe01-ffbd-40d0-a28c-0e5aed6b554e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_7","type":"vmess","server":"ydarm.e5outllok.me","port":80,"cipher":"auto","uuid":"de0fbe01-ffbd-40d0-a28c-0e5aed6b554e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_8","type":"vmess","server":"ydarm.e5outllok.me","port":80,"cipher":"auto","uuid":"f78be3ae-c715-4856-a797-720a6703ba65","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG@极客分享_9","type":"vmess","server":"ydarm.e5outllok.me","port":80,"cipher":"auto","uuid":"1da9d412-beb1-48cf-ac3e-ebc16403447b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydarm.e5outllok.me"}}}
-  - {"name":"TG@极客分享_10","type":"trojan","server":"iplc-enter-hk-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","sni":"hk-xe.fib-sys.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@极客分享_11","type":"vmess","server":"cfcdn5.sanfencdn.net","port":80,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp4.sanfencdn2.com"}}}
-  - {"name":"TG@极客分享_12","type":"vmess","server":"cfcdn3.sanfencdn.net","port":2052,"cipher":"auto","uuid":"16582759-3d20-4804-9c9c-a58ad7b260a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"sg3.sanfencdn2.com"}}}
+  - {"name":"TG@极客分享_1","type":"vmess","server":"cf.thaseunknown.com","port":8080,"cipher":"auto","uuid":"0306fea1-427b-4d08-9b2d-cf8a4078d634","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"chinam.eu.org"}}}
+  - {"name":"TG@极客分享_2","type":"ss","server":"54.36.174.181","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"TG@极客分享_3","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@极客分享_4","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@极客分享_5","type":"vmess","server":"192.203.230.184","port":443,"cipher":"auto","uuid":"056b3811-8133-4523-f8f4-0be52f84ec41","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/056b3811-8133-4523-f8f4-0be52f84ec41","headers":{"host":"yg2.mlbldzz.top"}}}
+  - {"name":"TG@极客分享_6","type":"vless","server":"c1.wang66.homes","port":443,"uuid":"c2ee59b9-fb4d-4b75-a623-55455824fdaa","tls":true,"servername":"c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"TG@极客分享_7","type":"trojan","server":"webdav.flareai.site","port":13543,"udp":true,"password":"8bc09fe4-1d47-4500-b9e8-ad58183d31b7","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@极客分享_8","type":"ss","server":"54.36.174.181","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"TG@极客分享_9","type":"vmess","server":"192.203.230.184","port":443,"cipher":"auto","uuid":"f14ff72c-217e-47db-834f-117089e184bb","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f14ff72c-217e-47db-834f-117089e184bb","headers":{"host":"dg1.mlbldzz.top"}}}
+  - {"name":"TG@极客分享_10","type":"vmess","server":"192.203.230.183","port":443,"cipher":"auto","uuid":"06b464f6-e38f-4ba8-eac3-8914277970dc","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/06b464f6-e38f-4ba8-eac3-8914277970dc","headers":{"host":"yg1.mlbldzz.top"}}}
+  - {"name":"TG@极客分享_11","type":"vmess","server":"162.159.129.53","port":80,"cipher":"auto","uuid":"45e8f77e-1765-4743-88a8-012332a4f0a7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/videos","headers":{"host":"jp.dabaiyyds.baymax.lol"}}}
+  - {"name":"TG@极客分享_12","type":"vmess","server":"162.159.129.52","port":80,"cipher":"auto","uuid":"45e8f77e-1765-4743-88a8-012332a4f0a7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/videos","headers":{"host":"jp.dabaiyyds.baymax.lol"}}}
+  - {"name":"TG@极客分享_13","type":"vmess","server":"162.159.129.51","port":80,"cipher":"auto","uuid":"45e8f77e-1765-4743-88a8-012332a4f0a7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/videos","headers":{"host":"jp.dabaiyyds.baymax.lol"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -70,21 +53,13 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -97,21 +72,13 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -124,20 +91,12 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -150,20 +109,12 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -176,20 +127,12 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -202,6 +145,7 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -224,15 +168,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 赞助位置联系我，无需收费
-      - night-furyx.com_夜煞云赞助_1
-      - night-furyx.com_夜煞云赞助_2
-      - night-furyx.com_夜煞云赞助_3
-      - night-furyx.com_夜煞云赞助_4
-      - night-furyx.com_夜煞云赞助_5
-      - night-furyx.com_夜煞云赞助_6
-      - night-furyx.com_夜煞云赞助_7
-      - night-furyx.com_夜煞云赞助_8
       - TG@极客分享_1
       - TG@极客分享_2
       - TG@极客分享_3
@@ -245,6 +180,7 @@ proxy-groups:
       - TG@极客分享_10
       - TG@极客分享_11
       - TG@极客分享_12
+      - TG@极客分享_13
 
 rules:
 # 本地/局域网地址
